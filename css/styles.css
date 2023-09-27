@@ -69,11 +69,10 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
+
+
 }
-.hero-container {
-  
-}
+
  
  .header-logo {
    color: #4d5ae5 ;
@@ -84,6 +83,9 @@ img {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    margin-right: 76px;
+   max-width: 1440px;
+  
+
  }
 
   
@@ -200,6 +202,16 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px; 
+ }
+
+ .icon-class {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  height: 112px; 
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
  }
  .title-paragraph {
   color: #434455;
