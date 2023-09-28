@@ -65,7 +65,7 @@ img {
 .hero-class {  
     background: #2E2F42; 
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice\ 1.jpg);
+    background-image: url(../images/peopleoffice.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -268,13 +268,16 @@ letter-spacing: 0.02em;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 8px;
   line-height: 1.5;
   letter-spacing: 0.02em; 
  }
 .ikon-list {
   display: flex; 
   justify-content: center;
-  gap: 24px;  
+  gap: 24px; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .ikon-item {
   width: 40px; 
@@ -288,7 +291,7 @@ letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 
 }
 .ikon-link:hover {
@@ -316,6 +319,31 @@ letter-spacing: 0.02em;
  .portfolio-list-item {
    width: calc((100% - 48px) / 3); 
  }
+
+.portfolio-container {
+  position: relative; 
+  overflow: hidden; 
+}
+.paragraph-text {
+  height: 100%; 
+  width: 100%; 
+  position: absolute;
+  top: 0; 
+  padding: 40px 32px;
+  font-size: 16px; 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:  #f4f4fd; 
+  padding: 40px 32px; 
+  background-color: #4d5ae5; 
+  transform: translateY(100%); 
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.paragraph-text:hover {
+  transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66,0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
  .servises-class {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -394,7 +422,43 @@ letter-spacing: 0.02em;
   max-width: 264px;
  }
 
+.logo-footer {
+  margin-right: 120px;
+
+}
+
+.paragraph-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF ;
+  margin-bottom: 16px;
+
+}
+ .media-ikon {
+  width: 100%;
+  height: 100%;
+  background-color:  #4d5ae5;
+  border-radius:  50%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+
+ }
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
